@@ -17,9 +17,14 @@ function Features() {
             Built for the modern business to engage users
           </span>
         </div>
-        <div className="grid gap-3 place-items-center w-full md:w-9/12">
-          <img src={require("../assets/images/chat-dark.webp")} alt="pic" />
-          <p className="text-white text-xl md:text-[2rem]">AI Chat</p>
+        <div className="relative grid gap-3 place-items-center w-full md:w-9/12">
+          <div className="features z-0 h-20 sm:h-32 md:h-60 w-60 md:w-[30rem] top-[25%] bg-red-700 absolute"></div>
+          <img
+            src={require("../assets/images/chat-dark.webp")}
+            alt="pic"
+            className="z-40"
+          />
+          <p className="text-white text-xl md:text-[2rem] z-40">AI Chat</p>
           <span className="text-gray-500 md:text-base text-sm w-4/5 md:w-2/5 mt-3">
             GPT-4 powered chat box for users to get direct answers to their
             questions

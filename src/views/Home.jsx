@@ -8,6 +8,7 @@ function Home() {
   return (
     <div className="text-center py-10 flex-col gap-10 flex justify-center items-center">
       <Hero />
+      <div className="home h-[30rem] w-10/12 md:w-[50rem] absolute top-[40%]"></div>
       <Herotabs />
       <Logos />
     </div>

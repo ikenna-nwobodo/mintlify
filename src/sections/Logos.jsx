@@ -2,7 +2,7 @@ import React from "react";
 
 function Logos() {
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-8">
+    <div className="z-50 w-full flex flex-col justify-center items-center gap-8">
       <div className="flex md:flex-row flex-col items-center md:gap-1 gap-4 text-sm md:text-base">
         <p>
           Powering developer experiences from fast growing startups to

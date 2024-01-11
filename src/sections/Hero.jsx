@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="w-11/12 lg:w-8/12 flex flex-col gap-8 items-center">
+    <div className="z-50 w-11/12 lg:w-8/12 flex flex-col gap-8 items-center">
       <div className="w-11/12 flex justify-center items-center">
         <p className="w-11/12 text-3xl md:text-5xl lg:text-6xl font-medium head tracking-tight">
           The documentation you want, effortlessly

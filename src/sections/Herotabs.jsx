@@ -5,8 +5,8 @@ import TabContent from "../components/TabContent";
 function Herotabs() {
   const [activeTab, setActiveTab] = useState("tab1");
   return (
-    <div className="w-11/12 md:w-full gap-8 flex flex-col items-center justify-center">
-      <div className="sm:flex bg-teal-700 justify-between gap-2 bg-opacity-[16%] rounded-lg hidden w-11/12 lg:w-6/12 p-0.5 border-secondary border">
+    <div className="z-50 w-11/12 md:w-full gap-8 flex flex-col items-center justify-center">
+      <div className="sm:flex bg-black justify-between gap-2 bg-opacity-[16%] rounded-lg hidden w-11/12 lg:w-6/12 p-0.5 border-secondary border">
         <Tab
           title="Guides"
           icon="import_contacts"
