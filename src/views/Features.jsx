@@ -18,7 +18,7 @@ function Features() {
           </span>
         </div>
         <div className="relative grid gap-3 place-items-center w-full md:w-9/12">
-          <div className="features z-0 h-[5rem] md:h-[20rem] w-[30rem] top-32 md:top-10 absolute"></div>
+          <div className="features z-0 h-[5rem] md:h-[20rem] w-[30rem] top-32 md:top-10 absolute md:block hidden"></div>
           <img
             src={require("../assets/images/chat-dark.webp")}
             alt="pic"
